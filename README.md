@@ -17,7 +17,6 @@
 - [Configuration](#configuration)
 - [Model Details](#model-details)
 - [Logging & Monitoring](#logging--monitoring)
-- [Deployment](#deployment)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -128,8 +127,8 @@ The Pricepally Demand Forecasting System is a production-ready machine learning 
 
 ```bash
 # Clone the repository
-git clone https://github.com/pricepally/demand-forecasting.git
-cd demand-forecasting
+git clone https://github.com/PricepallyDataScience/Pricepally_forecast_pipeline.git
+cd Pricepally_forecast_pipeline
 
 # Create virtual environment (recommended)
 python -m venv venv
@@ -270,8 +269,7 @@ From evaluation on 3,353 products:
 |--------|----------|---------|-----------|
 | XGBoost | 42% | 5.10 | 0.575 |
 | Rolling Mean | 32% | 4.94 | 0.481 |
-| Naive | 13% | 5.17 | 0.337 |
-| Exp Smoothing | 9% | 9.81 | 0.616 |
+| Naive | 22% | 5.17 | 0.337 |
 | Zero (Inactive) | 5% | 4.32 | 0.941 |
 
 **Overall:** MAE 5.42, RMSLE 0.54
@@ -396,4 +394,5 @@ This project is licensed under the MIT License
 ## 👥 Authors & Acknowledgments
 
 **Pricepally Data Science Team**
+
 
